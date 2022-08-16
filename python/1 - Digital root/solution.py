@@ -8,6 +8,7 @@ Given n, take the sum of the digits of n. If that value has more than one digit,
     132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
 """
 
+# Code
 def digital_root(n):
     if len(str(n)) != 1:
         str_num = str(n)
