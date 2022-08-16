@@ -2,4 +2,5 @@
 
 *Ejercicios que hago para Codewars*
 
-- c++
+- C++
+- Python
