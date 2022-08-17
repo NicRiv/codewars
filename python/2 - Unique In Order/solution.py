@@ -1,5 +1,7 @@
 """
-Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
+Implement the function unique_in_order which takes as argument a sequence and returns 
+a list of items without any elements with the same value next to each other and preserving 
+the original order of elements.
 
 Example:
     'AAAABBBCCDAABBB' = ['A', 'B', 'C', 'D', 'A', 'B']
@@ -13,7 +15,6 @@ def unique_in_order(iterable):
 
   for l in iterable:
     state = True
-
     last_item = 0
     
     if len(new_list) > 0:
