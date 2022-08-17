@@ -1,3 +1,6 @@
+// Duplicate Encoder
+// Level: 6 kyu
+
 #include <string>
 #include <cctype>
 
